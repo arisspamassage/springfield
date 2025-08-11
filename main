@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Springfield Academy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">Springfield Academy</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#programs">Programs</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>Welcome to Springfield Academy<br>Where Learning Begins</h1>
+  </div>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      Springfield Academy is committed to nurturing young minds with passion and excellence. Our mission is to provide a balanced, high-quality education that prepares students for the future.
+    </p>
+  </section>
+
+  <section id="programs">
+    <h2>Our Programs</h2>
+    <div class="programs">
+      <div class="card">
+        <h3>Early Childhood</h3>
+        <p>Stimulating learning through play and exploration for toddlers and preschoolers.</p>
+      </div>
+      <div class="card">
+        <h3>Primary School</h3>
+        <p>Foundational education with a focus on literacy, numeracy, and creativity.</p>
+      </div>
+      <div class="card">
+        <h3>Secondary School</h3>
+        <p>Advanced curriculum preparing students for university and real-world challenges.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials">
+    <h2>What Parents Say</h2>
+    <div class="testimonials">
+      <div class="card">
+        <p>"Springfield Academy transformed my child's future. Highly recommended!"</p>
+        <em>- Mrs. Adewale</em>
+      </div>
+      <div class="card">
+        <p>"Excellent teachers and a nurturing environment."</p>
+        <em>- Mr. Johnson</em>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact">
+      <input type="text" placeholder="Your Name" /><br />
+      <input type="email" placeholder="Your Email" /><br />
+      <textarea rows="5" placeholder="Your Message"></textarea><br />
+      <button>Send Message</button>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Springfield Academy | All rights reserved
+  </footer>
+
+</body>
+</html>
